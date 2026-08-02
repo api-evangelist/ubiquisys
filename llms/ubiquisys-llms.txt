@@ -1,0 +1,14 @@
+# Ubiquisys
+
+> Ubiquisys was a UK-based developer of intelligent 3G/LTE/Wi-Fi small cells and femtocells for mobile operators (ActiveRadio, ActiveSON, CloudBase, EdgeCloud), deployed by carriers such as SFR and SoftBank. Cisco announced its intent to acquire Ubiquisys on April 3, 2013, and the company was absorbed into Cisco's small cell portfolio. Ubiquisys published no public API or developer surface, and ubiquisys.com is now Cisco-owned, redirecting to Cisco's acquisitions page.
+
+This profile is maintained by the API Evangelist network as a historical record of an Accel portfolio company. There are no APIs, SDKs, or developer resources to index.
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/ubiquisys/refs/heads/main/apis.yml): Machine-readable company profile (no APIs)
+- [Legacy website](http://www.ubiquisys.com): Redirects to Cisco's acquisitions page
+
+## Artifacts
+
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/ubiquisys/refs/heads/main/security/ubiquisys-domain-security.yml): Probed TLS/DNS posture of the legacy domain

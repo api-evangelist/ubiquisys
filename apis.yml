@@ -1,7 +1,24 @@
 aid: ubiquisys
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ubiquisys.png
 name: Ubiquisys
-description: 'Ubiquisys is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: mobile. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Ubiquisys was a UK-based developer of intelligent 3G/LTE/Wi-Fi small cells
+  and femtocells for mobile operators, with products like ActiveRadio, ActiveSON, CloudBase,
+  and EdgeCloud deployed by carriers such as SFR and SoftBank, and was ranked #1 in ABI
+  Research''s Small Cell Vendor Matrix. Backed by Accel, Cisco announced its intent to
+  acquire Ubiquisys on April 3, 2013, and the company was absorbed into Cisco''s small
+  cell portfolio; ubiquisys.com is now Cisco-owned and redirects to Cisco''s acquisitions
+  page. Ubiquisys published no public API or developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/ubiquisys/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,15 +26,41 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: cisco
+x-acquired-date: '2013-04-03'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Mobile
+- Femtocells
+- Small Cells
+- Telecommunications
+- Wireless
+- Networking
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ubiquisys-domain-security.yml
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/ubiquisys-llms.txt
+  description: Generated llms.txt profile noting the Cisco acquisition and the absence
+    of any public API or developer surface.
+- name: Website
+  type: Website
+  url: http://www.ubiquisys.com
+  description: Legacy Ubiquisys domain, now Cisco-owned; redirects (302) to Cisco's
+    acquisitions page.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
