@@ -31,6 +31,9 @@ description: 'Ubiquisys was a UK-based developer of intelligent 3G/LTE/Wi-Fi sma
   cell portfolio; ubiquisys.com is now Cisco-owned and redirects to Cisco''s acquisitions
   page. Ubiquisys published no public API or developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/ubiquisys/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Ubiquisys published no public API or developer surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
